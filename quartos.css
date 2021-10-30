@@ -1,6 +1,5 @@
 .img-topo {
     max-width: 100%;
-    min-width: 520px;
     height: 30vh;
     background-image: url('imagens/img-fundo.jpg');
     background-size: cover;
@@ -8,7 +7,7 @@
 
 .box-quartos-pag2 {
     max-width: 1024px;
-    min-width: 520px;
+    min-width: 320px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -22,7 +21,7 @@
 
 .box-info {
     max-width: 1024px;
-    min-width: 520px;
+    min-width: 320px;
     margin: 70px auto 140px auto;
 }
 
