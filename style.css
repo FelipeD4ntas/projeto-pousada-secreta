@@ -1,0 +1,270 @@
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+         :root {
+            --font-principal: 'Source Sans Pro', sans-serif;
+            --span: #0485E0;
+            --logo: #52aa94bb;
+            --rodape: #49997C;
+            --bordas: #43776B;
+            --letras: rgb(94, 94, 94);
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: var(--font-principal);
+        }
+        
+        #menu {
+            position: fixed;
+            max-width: 100%;
+            min-width: 520px;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            background: white;
+            border-bottom: 1px solid rgb(160, 160, 160);
+        }
+        
+        .box-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1024px;
+            min-width: 520px;
+            margin: 0px auto;
+            font-weight: 600;
+            padding: 15px;
+            padding-right: 40px;
+        }
+        
+        .box-link-topo {
+            display: flex;
+        }
+        
+        .link-topo a {
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-left: 30px;
+            color: var(--letras);
+            font-size: 1em;
+            padding: 5px;
+        }
+        
+        .link-topo a:hover {
+            color: var(--span);
+            transition: color 0.3s;
+        }
+        
+        .pousada-secreta a {
+            text-decoration: none;
+            color: var(--letras);
+            font-size: 1.3em;
+        }
+        
+        .pousada-secreta span {
+            color: var(--span);
+        }
+        
+        main {
+            max-width: 100%;
+            min-width: 520px;
+        }
+        
+        .box-logo {
+            background-image: url('imagens/img-fundo.jpg');
+            background-size: cover;
+            height: 100vh;
+            max-width: 100%;
+            min-width: 520px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .logo {
+            text-align: center;
+            background: var(--logo);
+            color: white;
+            border: 1px solid white; 
+        }
+        
+        .logo h1 {
+            font-size: 3em;
+            padding: 20px;
+        }
+        
+        .logo p {
+            font-size: 1.5em;
+            padding: 20px;
+        }
+        
+        .box-artigos {
+            max-width: 1024px;
+            min-width: 520px;
+            margin: 0px auto;
+        }
+        
+        .artigos {
+            text-align: center;
+            margin: 80px 0px 40px 0px;
+        }
+        
+        .artigos h2 {
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        
+        .artigos p {
+            line-height: 2em;
+        }
+        
+        .box-quartos {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            max-width: 1024px;
+            min-width: 520px;
+            margin: 0px auto;
+            padding: 0px 5px;
+            flex-wrap: wrap;
+        }
+        
+        .quartos {
+            border-bottom: 2px solid var(--bordas);
+            padding: 5px 5px;
+        }
+        
+        .box-quartos div:first-child {
+            margin-left: 0px;
+        }
+        
+        .quartos a {
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 600;
+            color: var(--letras);
+        }
+        
+        .quartos a:hover {
+            color: var(--span);
+            transition: color 0.3s;
+        }
+        
+        .quartos a p {
+            padding: 20px;
+        }
+        
+        .box-mapa {
+            max-width: 100%;
+            min-width: 520px;
+        }
+        
+        .mapa iframe {
+            width: 100%;
+        }
+        
+        .box-sobre-pousada {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            max-width: 1024px;
+            min-width: 520px;
+            padding: 0 20px;
+        }
+        
+        .sobre-pousada {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+            flex-basis: 45%;
+            margin: 20px auto;
+        }
+        
+        .desc {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            padding-right: 20px;
+            width: 300px;
+        }
+        
+        .desc h3 {
+            margin: 10px 0px;
+        }
+        
+        .desc p {
+            text-align: justify;
+        }
+        
+        .sobre-pousada img {
+            padding-top: 15px;
+            height: 143px;
+            width: 130px;
+        }
+        
+        footer {
+            max-width: 100%;
+            min-width: 520px;
+            background: var(--rodape);
+            margin-top: 30px;
+        }
+        
+        .contatos {
+            max-width: 1024px;
+            min-width: 520px;
+            margin: 0px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--bordas);
+            padding: 30px 10px;
+        }
+        
+        .contatos h4 {
+            font-size: 1.3em;
+            max-width: 160px;
+            color: white;
+        }
+        
+        .contatos div:first-child {
+            padding: 5px;
+        }
+        
+        .link-rodape {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 35%;
+            padding: 5px;
+        }
+        
+        .link-rodape img {
+            height: 5vh;
+        }
+        
+        .link-rodape a {
+            align-self: flex-end;
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+        
+        .link-rodape a:hover {
+            color: rgb(238, 238, 238);
+        }
+        
+        .copyright {
+            max-width: 1024px;
+            min-width: 520px;
+            margin: 0px auto;
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            padding: 30px 10px;
+        }

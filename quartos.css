@@ -1,0 +1,48 @@
+.img-topo {
+    max-width: 100%;
+    min-width: 520px;
+    height: 30vh;
+    background-image: url('imagens/img-fundo.jpg');
+    background-size: cover;
+}
+
+.box-quartos-pag2 {
+    max-width: 1024px;
+    min-width: 520px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+
+.quartos-pag2 {
+    padding: 3px;
+}
+
+.box-info {
+    max-width: 1024px;
+    min-width: 520px;
+    margin: 70px auto 140px auto;
+}
+
+.box-titulo-info {
+    text-align: center;
+    margin: 30px;
+}
+
+.lista {
+    padding: 0px 60px;
+}
+
+.lista ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lista li {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
