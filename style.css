@@ -263,14 +263,14 @@
             padding-top: 20px;
         }
 
-        .redes-sociais > a > img:hover {
-            transform: scale(1.5);
-        }
-
         #linkedin {
             filter: invert();
             height: 32px;
             width: 32px;
+        }
+
+        .redes-sociais > a > img:hover {
+            transform: scale(1.5);
         }
         
         .copyright {
