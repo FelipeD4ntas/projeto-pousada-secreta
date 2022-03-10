@@ -129,7 +129,7 @@
             max-width: 1024px;
             min-width: 300px;
             margin: 0px auto;
-            padding: 0px 30px;
+            padding: 0px 25px;
             overflow-x: auto;
         }
         
@@ -261,6 +261,16 @@
         
         .redes-sociais {
             padding-top: 20px;
+        }
+
+        .redes-sociais > a > img:hover {
+            transform: scale(1.5);
+        }
+
+        #linkedin {
+            filter: invert();
+            height: 32px;
+            width: 32px;
         }
         
         .copyright {
