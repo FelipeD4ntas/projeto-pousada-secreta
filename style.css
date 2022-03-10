@@ -87,7 +87,8 @@
             text-align: center;
             background: var(--logo);
             color: white;
-            border: 1px solid white; 
+            border: 1px solid white;
+            margin: 0 10px;
         }
         
         .logo h1 {
@@ -124,18 +125,17 @@
         
         .box-quartos {
             display: flex;
-            justify-content: space-evenly;
             align-items: center;
             max-width: 1024px;
             min-width: 300px;
             margin: 0px auto;
-            padding: 0px 5px;
-            flex-wrap: wrap;
+            padding: 0px 30px;
+            overflow-x: auto;
         }
         
         .quartos {
             border-bottom: 2px solid var(--bordas);
-            padding: 5px 5px;
+            margin: 5px 5px;
         }
         
         .box-quartos div:first-child {
@@ -242,7 +242,6 @@
             display: flex;
             flex-wrap: wrap;
             padding: 5px 5px 15px 5px;
-        
         }
         
         .link-rodape img {
@@ -260,6 +259,10 @@
             color: rgb(238, 238, 238);
         }
         
+        .redes-sociais {
+            padding-top: 20px;
+        }
+        
         .copyright {
             max-width: 1024px;
             margin: 0px auto;
@@ -267,4 +270,10 @@
             color: white;
             font-weight: 600;
             padding: 30px 10px;
+        }
+        
+        @media(max-width: 400px) {
+            .redes-sociais {
+                margin: 0 auto;
+            }
         }
